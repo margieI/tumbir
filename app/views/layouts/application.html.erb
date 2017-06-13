@@ -38,13 +38,13 @@
           </div>
         <% end %>
       </div>
+      <div class="alert_wrapper">
+        <% flash.each do |name, msg| %>
+          <%= content_tag(:div, msg, class: "alert") %>
+        <% end %>
+      </div>
 
-      <% flash.each do |name, msg| %>
-        <%= content_tag(:div, msg, class: "alert") %>
-      <% end %>
-
-       <%= yield %>
-
+      <%= yield %>
     </div>
 
   </body>

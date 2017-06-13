@@ -110,8 +110,13 @@ a {
       }
     }
   }
-  .post_wrapper {
+  .alert_wrapper {
+    margin-right: 10px;
     padding: 1.9em;
+  }
+
+  .post_wrapper {
+    padding: 2.9em;
     border-bottom: 1px solid #d6dce0;
     .title {
       margin: 2px;
@@ -195,7 +200,7 @@ a {
     }
   }
   #page_wrapper {
-    padding: 3em;
+    padding: 6em;
     #profile_image {
       width: 300px;
       float: left;
